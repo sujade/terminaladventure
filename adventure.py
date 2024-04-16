@@ -69,7 +69,8 @@ elif answer == "right":
                   "GAME OVER")
             exit()
         elif answer == "no":
-            print("But you can't leave without it...\n")
+            print("But you can't leave without it...\n"
+                  "I won't let you get out of here without it.\n")
         answer = input("Do you take the key? (yes/no)")
         if answer == "yes":
             print("Good... The key is all yours.\n"
@@ -77,7 +78,8 @@ elif answer == "right":
                   "GAME OVER")
             exit()
         elif answer == "no":
-            print("TAKE. THE. DAMN. KEY!\n")
+            print("TAKE. THE. DAMN. KEY!"
+                  "OR ELSE!\n")
         answer = input("Do you take the key? (yes/no)")
         if answer == "yes":
             print("Good... The key is all yours.\n"
